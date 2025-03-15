@@ -1,7 +1,6 @@
 #Ejercicio # 1:
 print("Ejercicio #1:")
 from typing import Optional
-from datetime import datetime
 
 class Animal:
     def __init__(self, nombre: str, edad: int, tipo: str) -> None:
