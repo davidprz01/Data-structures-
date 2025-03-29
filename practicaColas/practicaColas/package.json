@@ -1,0 +1,24 @@
+{
+  "name": "data-structures-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidprz01/Data-structures-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/davidprz01/Data-structures-/issues"
+  },
+  "homepage": "https://github.com/davidprz01/Data-structures-#readme",
+  "devDependencies": {
+    "eslint": "^9.22.0"
+  }
+}
