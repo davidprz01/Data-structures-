@@ -49,19 +49,6 @@ for i in range(len(lab)):
 if encontro_s == False:
     print("No hay inicio en este laberinto")
 
-# encontro_e = False
-
-
-# for i in range(len(lab)):
-#     for j in range(len(lab[i])):
-#         if lab[i][j] == "E":
-#          x,y = i, j
-#          encontro_e = True
-#          break
-#     if encontro_e == True:
-#         print(f"El Final esta en {x,y}")
-#         break
-
 
 stack = Stack()
 stack.push([x,y])
@@ -96,5 +83,3 @@ while not stack.IsEmpty():
         stack.push([x,y -1])
 
     
-    
-

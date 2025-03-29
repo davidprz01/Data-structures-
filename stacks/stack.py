@@ -1,8 +1,8 @@
 class Stack:
-    def __init__(self):
+    def __init__(self) -> None:
         self.stack = []
 
-    def push(self, datos):
+    def push(self, datos) -> None:
         self.stack.append(datos)
     
     def pop(self):
@@ -15,7 +15,7 @@ class Stack:
             print("la pila esta vacia")
         return self.stack[-1]
     
-    def IsEmpty(self):
+    def IsEmpty(self) -> bool:
         return len(self.stack) == 0
     
 
